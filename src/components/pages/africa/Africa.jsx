@@ -1,6 +1,6 @@
 import YouTube from 'react-youtube'
 import './styles.scss'
-import Youtube from '../../youtube/youtube'
+import Youtube from '../../youtube/Youtube'
 
 
 const Africa = () => {
