@@ -1,0 +1,49 @@
+
+.contentWrapper{
+  margin: 15px;
+}
+
+.heading{
+  width: 100%;
+  font-size: 21vw;
+  color: white;
+  text-shadow: 5px 5px 10px rgba(128, 128, 128, 0.108)
+}
+.africaInfo{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.content{
+  p{
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 5px 5px 10px rgba(128, 128, 128, 0.108);
+  text-decoration: underline dashed;
+  margin-bottom: 30px;
+  }
+}
+.mainContent{
+  display: flex;
+  width: 100%;
+  height: 390px;
+  gap: 20px;
+  .infoDiv{
+    width: 60%;
+
+    background-color: blue;
+    border-radius: 10px;
+  }
+  .videoDiv{
+    width: 680px;
+    height: 390px;
+    background-color: rgb(195, 0, 255);
+  }
+}
+.contentInfodiv{
+  margin: 15px;
+  li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+}
