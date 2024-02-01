@@ -16,12 +16,14 @@ const Africa = () => {
         </p>
       </div>
       <div className='content'>
-        <p>
-          Challenges for Africa
-        </p>
         <div className='mainContent'>
-        <div className="infoDiv">
-            hello
+          <div className="infoDiv">
+            <p>Challenges for Africa</p>
+            <li>Climate Change</li>
+            <li>Hunger and Malnutition</li>
+            <li>Healthcare</li>
+            <li>Peacekeeping and Conflict Resolution</li>
+            <li>International Criminal Tribunal for Rwanda</li>
           </div>
           <div className="videoDiv">
             <Youtube videoId={'xT_OcCyQgSo'}/>

@@ -97,7 +97,7 @@ function App() {
                   <img src={kenyaImage} alt="" />
                 </div>
                 <div>
-
+                  hello
 
                 </div>
               </div>

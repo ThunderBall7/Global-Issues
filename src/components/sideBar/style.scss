@@ -1,7 +1,5 @@
 .main_sideBar{
-  background-color: rgb(247, 246, 246);
-  // height: 100vh;
-  width: 350px;
+  width: 300px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -16,6 +14,18 @@
       padding: 5px ;
     }
   }
+}
+.main_sideBar::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to right, #0067c2b3, #dee4e941);
+    // border-radius: 10px;
+    transform: translateY(2%);
+
 }
 .dashboard_overview{
   display: flex;

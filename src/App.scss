@@ -5,7 +5,7 @@
 
 .content_wrapper {
   width: 100%;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 .small_tabs{
   display: flex;
@@ -18,81 +18,77 @@
     padding: 5px;
     border-radius: 10px;
     background: linear-gradient(to right, #0067c2b3, #0099f887);
-
-    //009BF8
   }
 }
 
-.thingscontent{
+.thingscontent {
   display: flex;
   margin: 10px 20px;
   gap: 10px;
   height: 300px;
   position: relative;
-  ::before{
+
+  ::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 4px;
-    height: 96%; /* Adjust the height of the line */
-    background:linear-gradient(to right, #0067c2b3, #dee4e941);
+    height: 96%;
+    background: linear-gradient(to right, #0067c2b3, #dee4e941);
     border-radius: 10px;
     transform: translateY(2%);
   }
 
-
-  div:first-child{
-    width: 65%;
-    border: solid 2px rgb(238, 237, 237);
+  div {
+    width: 50%;
+    border: 2px solid rgb(238, 237, 237);
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
+    // flex-direction: column;
     padding: 10px;
 
-    h2{
+    h2 {
       font-weight: bold;
       padding-bottom: 5px;
+      font-size: 1.5rem;
     }
-    h3{
+
+    h3 {
       font-weight: 200;
       text-decoration: underline;
       padding-bottom: 5px;
+      font-size: 1.2rem;
     }
-    p{
-      font-size: 20px;
+
+    p {
+      font-size: 1rem;
       margin-bottom: 20%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 8em;
+      white-space: wrap;
     }
-    img{
-      width: 400px;
+
+    img {
+      width: 50%;
       object-fit: cover;
-      // height: 280px;
-      text-align: center;
       border-radius: 10px;
       margin: 10px;
+      max-height: 200px;
     }
-    h4{
+
+    h4 {
       color: grey;
       font-weight: 100;
-
-    }
-    h4:hover{
+      font-size: 1rem;
       cursor: pointer;
-    }
+      transition: color 0.3s ease;
 
-    }
-  div:last-child{
-    width: 35%;
-    background: #6441A5;
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
-    background: linear-gradient(to right, #2a0845, #6441A5);
-    color: white;
-    border: solid 2px rgb(238, 237, 237);
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    padding: 10px;
-    p{
-      margin-bottom: 20px;
+      &:hover {
+        color: #2980b9;
+      }
     }
   }
 }
